@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 Not Found</title>
+  <link href="/css/main.css" rel="stylesheet">
+</head>
+<body class="bg-base-100 text-base-content">
+
+  <!-- Navbar -->
+  <div class="navbar bg-base-200 px-4">
+    <div class="flex-1">
+      <a href="/" class="btn btn-ghost normal-case text-xl">Climate Solutions</a>
+    </div>
+    <div class="flex-none gap-4">
+      <a class="btn btn-ghost" href="/about">About</a>
+      <div class="dropdown dropdown-end">
+        <label tabindex="0" class="btn btn-ghost">Sector</label>
+        <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a href="/solutions/projects?sector=Land Sinks">Land Sinks</a></li>
+          <li><a href="/solutions/projects?sector=Industry">Industry</a></li>
+          <li><a href="/solutions/projects?sector=Transportation">Transportation</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 404 Hero -->
+  <div class="container mx-auto mt-10">
+    <div class="hero min-h-screen bg-base-200 rounded-lg">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <h1 class="text-6xl font-bold text-error">404</h1>
+          <p class="py-6 text-xl">Oops! The page you're looking for doesn't exist.</p>
+          <a href="/" class="btn btn-primary">Go Home</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
